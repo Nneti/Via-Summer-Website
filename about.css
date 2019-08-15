@@ -1,0 +1,144 @@
+*
+{
+  margin: 0;
+  padding:0;
+
+}
+/*navigationBar*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand h4
+{
+  font-size: 30px;
+  font-weight: 600;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover{
+  color: #007bff!important;
+}
+.navbar
+{
+  background: #cccccc;
+}
+.navbar-toggler{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*Pictures*/
+img {
+  display: block;
+  border: 3px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**---- About Us----**/
+#about
+{
+  margin-left: auto ;
+  margin-right: auto ;
+  border: 3px solid grey;
+  height: 800px;
+  width: 1200px;
+  padding-top:20px;
+  padding-bottom: 50px;
+  color: #555;
+  background-color: #f5f5f5;
+}
+#about h2
+{
+  font-family: cursive;
+  text-align: center;
+  font-size: 55px;
+  color: #353638;
+}
+#about p
+{
+  text-align: center;
+  font-size: 25px;
+  color: #353638;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+#inner{
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
+}
+#inner h3
+{
+  padding-top: 20px;
+  font-family: cursive;
+  text-align: center;
+  font-size: 45px;
+  color: #353638;
+}
+#inner p{
+  text-align: center;
+  font-size: 25px;
+  color: #353638;
+}
+/*Google maps*/
+#map{
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 500px;
+}
+
+/*----footer----*/
+a{
+  text-decoration: none;
+  outline: none;
+}
+.footer-main-div{
+  width:100;
+  height: auto;
+  margin: auto;
+  background: #b7b7b7;
+  padding: 20px 0px;
+}
+.footer-menu-one{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-menu-one ul{
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+.footer-menu-one ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 600px;
+  color: #fff;
+  text-transform: uppercase;
+}

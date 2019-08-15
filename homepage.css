@@ -1,0 +1,206 @@
+*
+{
+  margin: 0;
+  padding:0;
+
+}
+/*navigationBar*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand h4
+{
+  font-size: 30px;
+  font-weight: 600;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover{
+  color: #007bff!important;
+}
+.navbar
+{
+  background: #cccccc;
+}
+.navbar-toggler{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.sub-navbar
+{
+  display: none;
+}
+#nav-bar ul li:hover .sub-navbar
+{
+  display: block;
+  position: absolute;
+  background: rbg(0,100,0);
+  margin-top: 20px;
+
+}
+/*Slider*/
+
+#slider{
+  width: 100%;
+}
+img {
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**---- About Us----**/
+#about
+{
+  padding-top:50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+#about h2{
+  font-size: 35px;
+}
+#about p{
+  font-size: 25px;
+}
+#about .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+
+/*Our Programs and Services*/
+#Services
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(people.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#Services .col-md-3
+{
+  margin: 0 auto;
+
+}
+#Services h1
+{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+#Services h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+#Services p
+{
+  font-size: 18px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+#Services .col-md-3:hover
+{
+  background: #646666;
+  cursor: pointer;
+  transition: 0.7s;
+}
+/*---Our Team-----*/
+
+
+h1
+{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+
+/*----Contact Us*/
+#contact
+{
+  background: #efefef;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #777;
+}
+.contact-form
+{
+  padding: 15px;
+}
+.form-control
+{
+  border-radius: 0 !important;
+  border-radius: none !important;
+}
+::placeholder
+{
+  color: #999 !important;
+}
+#contact p{
+  padding-left: 300px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+/*----footer----*/
+a{
+  text-decoration: none;
+  outline: none;
+}
+.footer-main-div{
+  width:100;
+  height: auto;
+  margin: auto;
+  background: #b7b7b7;
+  padding: 20px 0px;
+}
+.footer-menu-one{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-menu-one ul{
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+.footer-menu-one ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 600px;
+  color: #fff;
+  text-transform: uppercase;
+}
